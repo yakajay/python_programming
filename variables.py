@@ -86,6 +86,16 @@ print("This is the negative output", my_tupledata[-3])
 
 # Mapping Data Type = dict
 
+data_new = {
+    "username": "Ajay Kumar",
+    "city": "Hyderabad",
+    "phone": 950595888,
+    "male": True
+}
+
+print("this is the dictonary data type example", data_new["username"])
+print("this is the dictonary data type example", data_new["phone"])
+
 # Set Data Type = set, frozenset
 
 # Boolean Data Type = bool
