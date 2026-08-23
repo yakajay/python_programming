@@ -48,7 +48,7 @@ complex_example = 3+4j # Complex data type example
 
 print(type(complex_example))
 
-# Sequence Data type = list, tuple, rane
+# Sequence Data type = list, tuple, range
 
 my_data = [11, "banana", 55.345, True, {"city": "Hyderabad"}]    # this is list data types
 
@@ -57,6 +57,26 @@ print(my_data[4])
 my_data[2] = "Ajay Kumar"  # by assigning this new value the value in the dictionary can be replaced. and we can change the any value which mutable
 
 print(my_data[2])
+
+print(type(my_data))
+
+# Tuple. what ever the values inside a tuple object those values cannot be changable
+
+example_tuple = (11, "banana", 55.345, True, {"city": "Hyderabad"})
+
+print("This is the output from tuple", example_tuple[4])
+
+# example_tuple[3] = False
+
+# print("This is the output from tuple", example_tuple[3])
+
+# Range is called a function which can be used in loops
+
+numberofseq = list(range(0,199, 4))   #we should list a mandatory to generate the sequence of numbers by giving the last numner it will divide that number and generate the sequence list.
+
+print(numberofseq)
+
+print(range(200, 213))
 
 # Mapping Data Type = dict
 
