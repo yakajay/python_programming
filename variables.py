@@ -50,6 +50,14 @@ print(type(complex_example))
 
 # Sequence Data type = list, tuple, rane
 
+my_data = [11, "banana", 55.345, True, {"city": "Hyderabad"}]    # this is list data types
+
+print(my_data[4])
+
+my_data[2] = "Ajay Kumar"  # by assigning this new value the value in the dictionary can be replaced. and we can change the any value which mutable
+
+print(my_data[2])
+
 # Mapping Data Type = dict
 
 # Set Data Type = set, frozenset
