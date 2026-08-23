@@ -17,7 +17,6 @@ username = "Ajay"
 
 print(type(username)) # String Data Type
 
-# Numeric Data types = int, float, complex
 
 phone_number = 9505959888
 
@@ -34,6 +33,20 @@ China,
 USA"""
 
 print(countries)
+
+# Numeric Data types = int, float, complex
+
+x = 5   # Int
+y = -10.56 # when ever it has a decimal number it consider as float data type.
+z = 53465876845636
+
+print(type(x))
+print(type(x))
+print(type(z))
+
+complex_example = 3+4j # Complex data type example
+
+print(type(complex_example))
 
 # Sequence Data type = list, tuple, rane
 
