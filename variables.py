@@ -78,6 +78,12 @@ print(numberofseq)
 
 print(range(200, 213))
 
+my_data = [11, "banana", 55.345, True, {"city": "Hyderabad"}]
+my_tupledata = (11, "banana", 55.345, True, {"city": "Hyderabad"})
+
+print("This is the negative output", my_data[-2]) # to print the value based on the negative order
+print("This is the negative output", my_tupledata[-3]) 
+
 # Mapping Data Type = dict
 
 # Set Data Type = set, frozenset
