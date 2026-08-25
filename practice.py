@@ -1,75 +1,39 @@
-# 23-Aug-2026
+numbers = 123
 
-name = "Ajay Kumar"
+name = "Ajay"
 
 print(name)
-print(type(name))
+print(numbers)
 
-cities = """Hyderabad 
-vijayawada
-vizag"""
+intt = 1234567
 
-print(cities)
-print(type(cities))
+flooo = 243355.353535
 
-x = 10
-y = 11.345
-z = 3453453345
+comppp = 2+4j
 
-print(type(x))
-print(type(y))
-print(type(z))
+print(type(intt))
+print(type(flooo))
+print(type(comppp))
 
-data_list = [32, "Markapur", 19.92, {"study": "graduation"}]
-
-print(data_list[3])
-
-# Numerci Data Types
- # Int
-
-mumbers = 200
-
-print(mumbers)
-print(type(mumbers))
-
- # Float
-
-mumber = 1234.6465
-
-print(mumber)
-print(type(mumber))
+data_s = [False, {"name": "Ajay"}, 124563, 58226.8855]
 
 
- # Complex
-mum  = 3+4j
+print(data_s[2])
 
-print(mum)
-print(type(mum))
+data_s[3] = "Hello"
 
-# Sequence Data Types
+print(data_s)
 
-# List - where as these value are mutuable means the values inside a list can be replacable
+tupp_data = (False, {"name": "Ajay"}, 124563, 58226.8855)
 
-data_list = [11, True, 2345.67, {"name": "Ajay"}]
+print("This is tupple output", tupp_data)
 
-print(data_list[3])
-print(type(data_list))
+# tupp_data[1] = True
 
-data_list[2] = "Sravani"
-
-print(data_list[2])
+# print("This is tupple output", tupp_data)
 
 
-# Tuple - These values are inmutuable and these value once declared cannot be replaced
+ranges = list(range(200, 299))
 
-new_data = (11, False, {"Captial": "Hyderabad"}, 24524.3536)
-
-print(new_data[2])
-
-# new_data[2] = "Vijayawada"
-
-# Range
-
-number = list(range(0, 999, 89))
-
-print(number)
+print(ranges)
+print(type(ranges))
