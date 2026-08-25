@@ -98,6 +98,26 @@ print("this is the dictonary data type example", data_new["phone"])
 
 # Set Data Type = set, frozenset
 
+# set the values are mutable where the values can be added and removed.
+
+fruits = {"banana", "orange", "mango", 55, False, 55, 55, False} # as these values are not in a order so we cannot fetch the values using order and if the data has a duplicate values but when we print the values it will print only one so it will filter the duplicate values
+
+fruits.add("grapes")    # by using add function to add the values to data. 
+
+fruits.remove(55)   # by using remove function we can able to remove the values in data.
+
+print(fruits) 
+
+# frozenset the values are immutable where the values cannot be added or removed
+
+new_fruits = frozenset({True, 44, 12, "pears", "ajay"})
+
+# new_fruits.add("kumar")
+# new_fruits.remove("pears")
+
+print(type(new_fruits))
+
+
 # Boolean Data Type = bool
 
 # Binary Data Type = bytes, bytearray, memoryview

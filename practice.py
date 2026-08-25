@@ -37,3 +37,19 @@ ranges = list(range(200, 299))
 
 print(ranges)
 print(type(ranges))
+
+# Dictionary
+
+data_type = {
+    "username": "Ajay Kumar",
+    "City": "Hyderabad",
+    "Number": "950595888888",
+    "Sex": "Male"
+}
+
+print(data_type["username"])
+print(data_type["City"])
+print(data_type["Number"])
+print(data_type["Sex"])
+
+
