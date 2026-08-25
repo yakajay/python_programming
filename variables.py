@@ -117,9 +117,43 @@ new_fruits = frozenset({True, 44, 12, "pears", "ajay"})
 
 print(type(new_fruits))
 
-
 # Boolean Data Type = bool
+
+print(bool(99))
+
+x = 10
+
+y = 20
+
+print(x<y)  
 
 # Binary Data Type = bytes, bytearray, memoryview
 
+# bytes     the bytes datatype in python represents a sequence of integer, where each integer is in the range 0-255, It cannot directly store strings as its element, but it can store the byte-encoded representation of a string.
+
+sample_bytes = bytes([22, 23, 24, 25]) + b"Ajay" # by mentioning the b and "value", the values cannot be changed once it was defined.
+
+print(type(sample_bytes))
+print(sample_bytes[4])
+
+# bytearray             the value can be changed
+
+sam_byt = bytearray([100, 200, 30, 40])
+
+sam_byt[2] = 253
+
+print(sam_byt)
+print(type(sam_byt))
+
+# memoryview  is a built in-class that provided a way to access the memory of an object without copying the data. 
+
+# This is particularly useful when working with large datasets.
+
+# the data can be shared to datset 1 to datset 2 for the memory efficiency
+
 # None Data Type = NoneType
+
+abc = None # variable doesnt have a value called a None data type
+
+print(abc)
+print(type(abc))
