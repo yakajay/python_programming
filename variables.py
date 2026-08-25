@@ -240,3 +240,28 @@ print(not y) # to make the flase value to true by using not operator.
 
 # the value will be stored in bits.
 
+# 0 = 0
+# 1 = 1
+# 2 = 10
+# 3 = 11
+# 4 = 100
+# 5 = 101
+# 6 = 110
+# 7 = 111
+# 8 = 1000
+# 9 = 1001
+# 10 = 1010
+
+# Number to Binary
+
+print(bin(0))
+print(bin(1))
+print(bin(2))
+print(bin(3))
+print(bin(4))
+print(bin(5))
+print(bin(6))
+print(bin(7))
+print(bin(8))
+print(bin(9))
+print(bin(10))
