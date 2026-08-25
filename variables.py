@@ -265,3 +265,41 @@ print(bin(7))
 print(bin(8))
 print(bin(9))
 print(bin(10))
+
+# Conditional Statements
+
+# if
+
+if 10<20:
+    print("yes 10 is less than 20")
+
+# if-else
+
+if 10<20:
+    print("true")
+else:
+    print("false")
+
+#if-elif-else
+
+if 10>20:
+    print("Hello World")
+elif 45<30:
+    print("This is Ajay")
+elif 30>40:
+    print("This is Yakkali")
+else:
+    print("This is Kumar")
+
+age = 18
+
+if (age <=18) and (age!=19):
+    print("You are not allowed here")
+
+if(age < 18) or (age!=19):
+    print("You will be allowed")
+
+if not (age != 19):
+    print("This is the place you belongs")
+else:
+    print("Your are 19 years old")
