@@ -157,3 +157,86 @@ abc = None # variable doesnt have a value called a None data type
 
 print(abc)
 print(type(abc))
+
+# Operators in Python are special symbools or keywords used to perform operations on variable or values.
+
+# Arthmetic Operators
+
+# Addition(+), Subtraction(-), Multiplication(*), Division(/), Modulus(%), Exponentiation(**), Floor Division(//)
+
+x = 10
+y = 20
+
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+print(x % y)
+print(x ** y) # "x" value to the power of "y" value
+print(x // y) # it is will give the lease value
+
+# Comparison Operators
+
+x = 10
+y = 20
+ # (==) Equla to returns True is two operands are equal.
+
+print(x==y)
+
+ # (!=) Not Equal to returns True id two operands are not equal.
+
+print(x!=y)
+
+ # (>) Greather Than returns True if left operand is greather than right operand.
+
+print(x>y)
+
+ # (<) Less Than returns True is left operand is smaller than right operand.
+
+print(x<y)
+
+ # (>=) Greater Than or Equal To returns True if left operand is greater than or equal to right operand.
+
+print(x>=y)
+
+ # (<=) Less Than or Equal To retuns Trye if left operand is smaller than or equal to right operand.
+
+print(x<=y)
+
+# Assignment Operators
+
+x = 5 # Basic Assignment operator
+
+a = 10
+
+a = a+20  # addition the value to the variable
+
+a +=30
+
+a = a-1 # to substract the value to the variable
+
+a*=2
+
+a/=2 # Equivalane the value to the variable
+
+print(a) # Multiplication the value to the variable
+
+# Logical Operators
+l = True
+m = False
+# and if both the values are true the the output is true but if any one value was and another was false then the output is false and if bothe values are false then the output is false.
+
+print(l and m)
+
+# or
+
+print(l or y)
+
+# not
+
+print(not y) # to make the flase value to true by using not operator.
+
+# Bitwise Operators
+
+# the value will be stored in bits.
+
