@@ -1,55 +1,76 @@
-numbers = 123
+# Operators
+# Arthmetic Operator
 
-name = "Ajay"
+x = 10
+y = 10
 
-print(name)
-print(numbers)
+print (x + y)
+print (x - y)
+print (x * y)
+print (x / y)
+print (x % y)
+print (x ** y)
+print (x // y)
 
-intt = 1234567
+# Logical Operator
 
-flooo = 243355.353535
+a = True
+b = False
 
-comppp = 2+4j
+print(a and b)
 
-print(type(intt))
-print(type(flooo))
-print(type(comppp))
+print (a or b)
 
-data_s = [False, {"name": "Ajay"}, 124563, 58226.8855]
+print (not a)
+
+# Comparison Operator
+
+x = 10
+y = 11
+
+print("equal to output", x == y)
+print ("Not equal too",x != y)
+print ("less than", x < y)
+print ("Gretather than", x > y)
+print ("greater than equal too", x >= y)
+print (x <= y)
+
+# assignment operator
+
+x = 1
+
+x = x + 10
+
+x +=200
+
+x -=120
+
+x /= 2
+
+x%=2
+
+print(x)
+
+# Conditional statements
+
+d = 10
+e = 20
+
+if d>e:
+    print("This is correct output")
+else:
+    print("There is no values meets")
 
 
-print(data_s[2])
+k = 200
+l = 201
 
-data_s[3] = "Hello"
-
-print(data_s)
-
-tupp_data = (False, {"name": "Ajay"}, 124563, 58226.8855)
-
-print("This is tupple output", tupp_data)
-
-# tupp_data[1] = True
-
-# print("This is tupple output", tupp_data)
-
-
-ranges = list(range(200, 299))
-
-print(ranges)
-print(type(ranges))
-
-# Dictionary
-
-data_type = {
-    "username": "Ajay Kumar",
-    "City": "Hyderabad",
-    "Number": "950595888888",
-    "Sex": "Male"
-}
-
-print(data_type["username"])
-print(data_type["City"])
-print(data_type["Number"])
-print(data_type["Sex"])
-
+if k > l:
+    print("This is the correct value")
+elif k >= l:
+    print("This is the new value")
+elif k == l:
+    print("Last Value")
+else:
+    print("Not condition meets")
 
