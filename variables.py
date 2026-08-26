@@ -303,3 +303,65 @@ if not (age != 19):
     print("This is the place you belongs")
 else:
     print("Your are 19 years old")
+
+# Loops         initilization, condition, increment/decrement
+
+# While loop
+
+a = 10
+
+while a < 200:
+    print(a)
+    a += 10
+
+while a > -20:
+    print(a)
+    a-= 1
+
+# break
+
+marks = 360
+
+while marks <= 475:
+    print(marks)
+    if marks == 400:
+        break
+    marks +=10
+
+# continue  where we can skip the value
+
+nums = 1
+
+while nums < 20:
+    nums+=1
+    if nums == 12:
+        continue
+    print(nums)
+
+# for loop
+
+# for var in sequence
+
+city = "hyderabad"
+
+for i in city:
+    print(i)
+
+# list
+
+fruitss = ["apple", "banana", "orange", "grapes", 55]
+
+for fruit in fruitss:
+    print(fruit)
+
+# tuple
+
+colour = ("red", "blue", "green", "yellow")
+
+for col in colour:
+    print(col)
+
+# range
+
+for item in range(5):
+    print(item)
