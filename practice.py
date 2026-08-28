@@ -1,76 +1,46 @@
-# Operators
-# Arthmetic Operator
+k = 1
 
-x = 10
-y = 10
+while k < 5:
+    print(k)
+    k += 1
 
-print (x + y)
-print (x - y)
-print (x * y)
-print (x / y)
-print (x % y)
-print (x ** y)
-print (x // y)
+l = 10
 
-# Logical Operator
-
-a = True
-b = False
-
-print(a and b)
-
-print (a or b)
-
-print (not a)
-
-# Comparison Operator
-
-x = 10
-y = 11
-
-print("equal to output", x == y)
-print ("Not equal too",x != y)
-print ("less than", x < y)
-print ("Gretather than", x > y)
-print ("greater than equal too", x >= y)
-print (x <= y)
-
-# assignment operator
-
-x = 1
-
-x = x + 10
-
-x +=200
-
-x -=120
-
-x /= 2
-
-x%=2
-
-print(x)
-
-# Conditional statements
-
-d = 10
-e = 20
-
-if d>e:
-    print("This is correct output")
-else:
-    print("There is no values meets")
+while l > 0:
+    print(l)
+    l-= 1
 
 
-k = 200
-l = 201
+# Break
 
-if k > l:
-    print("This is the correct value")
-elif k >= l:
-    print("This is the new value")
-elif k == l:
-    print("Last Value")
-else:
-    print("Not condition meets")
+marks = 200
 
+while marks < 500:
+    print(marks)
+    if marks == 400:
+        break
+    marks +=10
+
+# Continue
+
+numbers = 1
+
+while numbers < 20:
+    numbers+=1
+    if numbers == 11:
+        continue
+    print(numbers)
+
+
+colors = ["red", "blue"]
+
+for col in colors:
+    print(col)
+
+colors_new = ("green", "orange")
+
+for newcol in colors_new:
+    print(newcol)
+
+for i in range(20):
+    print(i)
