@@ -72,7 +72,7 @@ print("This is the output from tuple", example_tuple[4])
 
 # Range is called a function which can be used in loops
 
-numberofseq = list(range(0,199, 4))   #we should list a mandatory to generate the sequence of numbers by giving the last numner it will divide that number and generate the sequence list.
+numberofseq = list(range(0,199, 4))   #we should list a mandatory to generate the sequence of numbers by giving the last number it will divide that number and generate the sequence list.
 
 print(numberofseq)
 
