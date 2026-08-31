@@ -379,3 +379,21 @@ for i in range(rows, 0, -1):
     for j in range(1, i+1):
         print("*", end=" ")
     print()
+
+#input function as the input value data type is by default it was string.
+
+# age = input("what is your age?")
+
+# print("User age is", age)
+# print(type(age))
+
+numb_one = int(input("please enter yout first number:")) # by passing the int() we can conver the data types from "str" to "int".
+
+numb_two = input("please enter yout second number:")
+
+usn = int(numb_two) # this is the another way to convert the data type from "str" to "int"
+
+print(type(numb_one))
+print(type(numb_two))
+result = print(numb_one + usn)
+
