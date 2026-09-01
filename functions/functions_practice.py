@@ -22,3 +22,9 @@ while attempts < max_ats:
     if attempts == max_ats:
         print("Max attempts completed for a day")
 
+def pri_ret():
+    print("This is Return statement output")
+    return "This is print output"
+
+pri_ret()
+print(pri_ret())
