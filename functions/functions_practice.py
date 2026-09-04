@@ -3,6 +3,7 @@ def data_details (a, b):
 
 data_details(250, 350)
 
+data_details(250 456)
 
 pwd = "ajay@123"
 
@@ -28,3 +29,4 @@ def pri_ret():
 
 pri_ret()
 print(pri_ret())
+
