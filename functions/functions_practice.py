@@ -30,3 +30,12 @@ def pri_ret():
 pri_ret()
 print(pri_ret())
 
+def data_s():
+    print("This is the correcy value")
+
+data_s()
+
+def sum_data(a, b):
+    print( a + b)
+
+sum_data(2345, 2345)
