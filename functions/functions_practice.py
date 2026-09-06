@@ -39,3 +39,8 @@ def sum_data(a, b):
     print( a + b)
 
 sum_data(2345, 2345)
+
+def new_data(a, b, c):
+    print((a +b)-c)
+
+new_data(200, 300, 100)
