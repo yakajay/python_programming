@@ -3,7 +3,7 @@ def data_details (a, b):
 
 data_details(250, 350)
 
-data_details(250 456)
+data_details(250, 456)
 
 pwd = "ajay@123"
 
